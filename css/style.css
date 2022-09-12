@@ -107,26 +107,32 @@ main .features-bottom .why-choose h2 {
 
 footer {
   background-color:greenyellow;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 footer .top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 footer .menu-section {
   display: flex;
-  justify-content: space-between;
-  width: 40%;
+  justify-content: space-evenly;
+  width: 70%;
 }
 
 footer .contacts {
   width: 30%;
 }
 
-footer .contacts {
-  width: 40%;
+footer .bottom {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
 }
+
+footer 
 
 
 
