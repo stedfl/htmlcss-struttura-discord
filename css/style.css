@@ -13,9 +13,10 @@
   background-color: pink;
 }
 
+/* HEADER */
 
-header, .jambotron,.why-choose, .why-choose-plain, footer, .debug {
-  padding: 0 15%;
+header, main .jambotron, main .why-choose, footer {
+  padding: 0 25%;
 }
 
 header {
@@ -23,14 +24,15 @@ header {
   background-color: #3161e0;
   height: 80px;
 }
- header .header-bar {
+
+header .header-bar {
   display: flex;
   justify-content: space-between;
- }
+}
 
- header ul, footer ul {
+header ul, footer ul {
   list-style: none;
- }
+}
  
 
 header .menu ul {
@@ -38,17 +40,19 @@ header .menu ul {
 }
 
 header .menu li {
-  padding-left: 40px;
+  padding-left: 15px;
 }
 
+/* MAIN */
 main {
   background-color: lightgray;
-  
 }
+
+/* JAMBOTRON */
 main .jambotron {
   /* color: white; */
   text-align: center;
-  padding: 50px 20%;
+  padding: 50px 25%;
 }
 
 main .jambotron h1 {
@@ -59,11 +63,17 @@ main .jambotron p {
   padding-bottom: 15px;
 }
 
-main .features-top .why-choose, .why-choose.special {
+/* FEATURES TOP SECTION*/
+main .features-top .why-choose {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
   padding-top:50px;
   padding-bottom:50px;
+}
+
+main .features-top .why-choose.special {
+  flex-direction: row-reverse;
 }
 
 main .features-top .why-choose .frog-image {
@@ -72,14 +82,11 @@ main .features-top .why-choose .frog-image {
   width: 55%;
 }
 
-main .features-top .why-choose.special {
-  flex-direction: row-reverse;
-}
-
 main .features-top .why-choose .description {
   width:35% ;
 }
 
+/* FEATURES BOTTOM SECTION */
 main .features-bottom {
   background-color: yellow;
 }
@@ -105,6 +112,7 @@ main .features-bottom .why-choose h2 {
   text-align: center;
 }
 
+/* FOOTER */
 footer {
   background-color:greenyellow;
   padding-top: 50px;
@@ -132,7 +140,6 @@ footer .bottom {
   justify-content: space-between;
 }
 
-footer 
 
 
 
