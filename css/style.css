@@ -3,17 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* UTILITIES */
 .debug {
   border: 1px solid black;
 }
 
+.description {
+  background-color: pink;
+}
 
-header, .jambotron,.why-choose, footer, .debug {
+
+header, .jambotron,.why-choose, .why-choose-plain, footer, .debug {
   padding: 0 15%;
 }
 
 header {
-  
   align-items: center;
   background-color: #3161e0;
   height: 80px;
@@ -36,7 +41,7 @@ main {
   background-color: lightgray;
   
 }
-main .jambotron.debug {
+main .jambotron {
   /* color: white; */
   text-align: center;
   padding: 50px 20%;
@@ -50,7 +55,7 @@ main .jambotron p {
   padding-bottom: 15px;
 }
 
-main .features-top .why-choose {
+main .features-top .why-choose, .why-choose.special {
   display: flex;
   justify-content: space-between;
   padding-top:50px;
@@ -60,20 +65,25 @@ main .features-top .why-choose {
 main .features-top .why-choose .frog-imagine {
   background-color: red;
   height: 300px;
-  width: 400px;
-}
-
-main .why-choose .description {
-  width:250px ;
+  width: 55%;
 }
 
 main .features-top .why-choose.special {
-  background-color: #f6f6f6;
+  flex-direction: row-reverse;
+}
+
+main .why-choose .description {
+  width:35% ;
 }
 
 main .features-bottom {
   height: 300px;
   background-color: yellow;
+}
+
+main .features-bottom .frog-imagine {
+  width: 100%
+  height: 300px;
 }
 
 
