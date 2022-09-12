@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-header, .jambotron, footer {
+header, .jambotron,.why-choose, footer {
   padding: 0 15%;
 }
 
@@ -43,6 +43,30 @@ main .jambotron h1 {
 main .jambotron p {
   padding-bottom: 15px;
 }
+
+main .features-top .why-choose {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+main .features-top .why-choose .frog-imagine {
+  background-color: red;
+  height: 300px;
+  width: 400px;
+}
+
+main .why-choose .description {
+  width:250px ;
+}
+
+main .features-top .why-choose.special {
+  background-color: #f6f6f6;
+}
+
+
 
 
 
