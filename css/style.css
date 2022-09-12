@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3161e0;
+  height: 50px;
+  padding: 0 250px;
+  
+}
+
+header .menu ul {
+  display: flex;
+  list-style: none;
+}
+
+header .menu li {
+  padding-left: 40px;
+}
+
+header .menu a {
+  color: white;
+}
+
+
+
